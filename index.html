@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Site em Bootstrap</title>
+</head>
+<body>
+    <!-- CABEÇALHO -->
+    <header>
+        <!-- Barra de navegação superior -->
+        <nav class="navbar navbar-expand-md navbar-light bg-light">
+          <div class="container">
+            <!-- Imagem / Logotipo -->
+            <a class="navbar-brand" href="#">
+                <!-- <img src="img/Samuel.jpg" alt="Foto de Samuel Santos" style="border-radius: 50%; height: 100px;"> -->
+                <span class="h3 ms-4">Samuel Santos</span>
+            </a>
+            <div class="d-flex flex-row-reverse">
+                <div>
+                    <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#about">Sobre mim</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#social-media">Redes Sociais</a>
+                      </li>
+                    </ul>
+                  </div>
+            </div>
+          </div>
+        </nav>
+    </header>
+    <!-- SOBRE MIM -->
+    <section class="container-fluid espaco margem" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="h1 text-center subtitle">Sobre Mim</div>
+                <div class="col-lg-12 d-flex flex-column align-items-center">
+                    <img class="rounded-circle" style="width: 300px;" src="img/Samuel.jpg" alt="Foto de Samuel Santos">
+                    <div class="h5 margem">Lorem Ipsum</div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et nibh eu metus tincidunt porta. Nullam suscipit euismod purus, id vehicula quam euismod vel. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Suspendisse justo nibh, interdum ac tortor vel, dapibus facilisis augue. </p>
+                  </div>
+            </div>
+        </div>
+    </section>
+    <!-- REDES SOCIAIS -->
+    <section class="container-fluid bg-light espaco margem" id="social-media">
+        <div class="container">
+            <div class="row">
+                <div class="h1 text-center subtitle">Redes Sociais</div>
+                <div class="col-lg-4 d-flex flex-column align-items-center mt-3">
+                    <img class="rounded-circle" src="img/github.png" style="width: 150px; height: 150px;" alt="Imagem de um gato preto, ícone do github">
+                    <div class="h2">GitHub</div>
+                    <p>Acesse os projetos realizados por mim</p>
+                    <p><a href="#" class="btn btn-secondary" target="_blank">Acessar</a></p>
+                </div>
+    
+                <div class="col-lg-4 d-flex flex-column align-items-center mt-3">
+                    <img src="img/linkedIn.png" style="width: 150px; height: 150px;" alt="Imagem de um gato preto, ícone do github">
+                    <div class="h2">LinkedIn</div>
+                    <p>Acesse os projetos realizados por mim</p>
+                    <p><a href="#" class="btn btn-secondary" target="_blank">Acessar</a></p>
+                </div>
+    
+                <div class="col-lg-4 d-flex flex-column align-items-center mt-3">
+                    <img src="img/instagram.png" style="width: 150px; height: 150px;" alt="Imagem de um gato preto, ícone do github">
+                    <div class="h2">Instagram</div>
+                    <p>Acesse os projetos realizados por mim</p>
+                    <p><a href="#" class="btn btn-secondary" target="_blank">Acessar</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <hr>
+    <!-- RODAPÉ -->
+    <footer class="container margem">
+        <p class="float-end"><a href="#">Voltar para o topo</a></p>
+        <p>&copy; 2022 - Criado por <a href="https://www.samsantos.com.br" target="_blank">Samuel Santos</a></p>
+      </footer>
+</body>
+</html>
